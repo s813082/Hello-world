@@ -1,0 +1,18 @@
+<!-- <p>pratice works!</p> -->
+<h2>{{Authors.length}}Authors</h2>
+<ul>
+    <li *ngFor=" let course of Authors; let i = index ">
+        {{course}}{{i+1}}
+    </li>
+</ul>
+<h2>New Novel</h2>
+<ul>
+    <li *ngFor= "let Books of Book">
+        {{Books.BookName}}
+        <ul>
+            <li *ngFor = "let name of Books.SerialName ; let i = index">
+                {{i+1}} - {{name.Serial}}
+            </li>
+        </ul>
+    </li>
+</ul>

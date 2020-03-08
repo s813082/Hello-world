@@ -5,5 +5,5 @@ import { Injectable } from '@angular/core';
 })
 export class EmailService {
 
-  constructor(LogServeice: LogService) { }
+  // constructor(LogServeice: LogService) { }
 }
